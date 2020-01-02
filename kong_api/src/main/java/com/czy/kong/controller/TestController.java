@@ -20,4 +20,9 @@ public class TestController {
     public String learn(HttpServletRequest request, HttpServletResponse response) {
         return "the api is success";
     }
+
+    @RequestMapping("/status")
+    public String status() {
+        return "status";
+    }
 }
